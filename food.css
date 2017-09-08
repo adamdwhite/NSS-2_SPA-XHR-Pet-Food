@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arvo';
+}
+
+#dogFood {
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#catFood {
+    background-color: coral;
+    color: whitesmoke;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+h3 {
+    color: slategray;
+}

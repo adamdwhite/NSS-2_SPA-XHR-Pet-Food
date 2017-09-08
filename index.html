@@ -1,0 +1,35 @@
+<!-- Your first task is to build a product page that displays all brands of dog food, the different types, with the price and size for each container volume.
+Once you have all of that information listed, you need to create a second JSON file to represent the new product line for Acme, Inc. They now want to sell cat food. Your product owner gives you a spreadsheet with all the new data in it. It is your job to get this data represented correctly in JSON format and then update your page to now show cat food, along with dog food. -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Pet Food</title>
+    <link rel="stylesheet" type="text/css" href="food.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Acme Pet Food</h1>
+    <h3>Made by hand in Nashville, TN. <br> We use only local ingredients</h3>
+
+    <hr>
+
+    <div class="animalType">
+        <h2>Dog Fuds:</h2>
+        <div id="dogFood"></div>
+    </div>
+
+    <hr>
+
+    <div class="animalType">
+        <h2>Cat Fuds:</h2>
+        <div id="catFood"></div>
+    </div>
+
+    <script type="text/javascript" src="food.js"></script>
+</body>
+
+</html>
